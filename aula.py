@@ -1,6 +1,6 @@
 # Aprendendo listas
 
-lista1 = [2.0, 3.5, 7.5, -2, 12]
+lista1 = [2.0, 3.5, 7.5, -2, 12, 25]
 print(lista1)
 print(len(lista1))
 print(sum(lista1))
