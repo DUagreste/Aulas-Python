@@ -7,6 +7,17 @@ print(tupla.count("item3"))
 
 uf = ("RN", "PE", "CE", "PB", "AL", "BA")
 print(type(uf))
+print("--------------------------------")
+tupla1 = ("uva", "maçã", "banana", "morango")
+print(tupla1)
+
+for x in range(len(tupla1)):  # o loop funciona parecido com Listas
+    print(x, tupla1[x])
+
+(x, *y, z) = tupla1  # desempacotamento de uma Tupla
+print("x:", x)
+print("y:", y)
+print("z:", z)
 
 # Tuplas são mais utilizados em coisas que não devem ser mudadas,
 # como os estados brasileiros (exemplo acima).
