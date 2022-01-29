@@ -1,5 +1,4 @@
 # Descobrir fatorial de um número
-
 print("------------------------------")
 numero = int(input("Digite um número: "))
 
