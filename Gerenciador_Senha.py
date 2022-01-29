@@ -1,9 +1,3 @@
-'''
-Security = chave
-5ecur1ty = senha
-'''
-
-
 chave = input("Digite sua senha: ")
 senha = ""
 
@@ -28,4 +22,5 @@ for letra in chave:
         senha = senha + "!"
     else:
         senha = senha + letra
-print(senha)
+
+print("Sua senha criptografada é:", senha)
