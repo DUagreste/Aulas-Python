@@ -1,6 +1,7 @@
 # Exercício: descubra o maior e menor número
 
 cont = 0
+
 while cont < 5:
     numero = int(input("Digite o número: "))
     if cont == 0:
