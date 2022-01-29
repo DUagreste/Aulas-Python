@@ -51,6 +51,7 @@ convertReal = real / 5.52
 
 print(f'A quantia em dólares é US${convertReal:.2f}.')
 print("------------------------------------------------")
+
 print("Conversão de dólares para reais")
 
 dolar = float(input("Quantos dólares quer convertes? US$"))
