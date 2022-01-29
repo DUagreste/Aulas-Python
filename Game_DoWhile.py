@@ -1,7 +1,8 @@
 # Mini game - Acerte o número
 
 palpite = 0
-numero = 9
+
+numero = 20
 
 while True:
     print("---------------------------")
