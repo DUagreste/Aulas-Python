@@ -2,9 +2,14 @@
 
 print("-----------------------------")
 
-numero = int(input("Digite um número: "))
+numero = input("Digite um número: ")
 
-if (numero % 2) == 0:
-    print("Esse número é par!")
+if numero.isnumeric():
+    numero = int(numero)
+
+    if numero % 2 == 0:
+        print(f"O número {numero} é par!")
+    else:
+        print(f"O número {numero} é impar!.")
 else:
-    print("Esse número é impar!")
+    print("Digite um número válido!")
